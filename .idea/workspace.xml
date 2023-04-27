@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b48603f4-00df-4eaf-9afd-c2f3b63b9a78" name="Changes" comment="Some changes">
+    <list default="true" id="b48603f4-00df-4eaf-9afd-c2f3b63b9a78" name="Changes" comment="Add main method">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,23 +48,25 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MainTest.testTwoSumNull">
-    <configuration name="HelloDocker" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="JenkinsTest" />
-      <target name="openjdk:latest" />
+  <component name="RunManager" selected="JUnit.MainTest">
+    <configuration name="MainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jenkins-test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MainTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainTest.testTwoSum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JenkinsTest" />
+      <module name="jenkins-test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
       <option name="METHOD_NAME" value="testTwoSum" />
@@ -74,7 +76,7 @@
       </method>
     </configuration>
     <configuration name="MainTest.testTwoSumNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JenkinsTest" />
+      <module name="jenkins-test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="MainTest" />
       <option name="METHOD_NAME" value="testTwoSumNull" />
@@ -83,23 +85,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="jenkins-test" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="jenkins-test" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
       <deployment type="dockerfile">
-        <settings>
-          <option name="containerName" value="" />
-          <option name="sourceFilePath" value="" />
-        </settings>
+        <settings />
       </deployment>
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.HelloDocker" />
-      <item itemvalue="Docker.Unnamed" />
+      <item itemvalue="JUnit.MainTest" />
       <item itemvalue="JUnit.MainTest.testTwoSum" />
       <item itemvalue="JUnit.MainTest.testTwoSumNull" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MainTest" />
         <item itemvalue="JUnit.MainTest.testTwoSumNull" />
         <item itemvalue="JUnit.MainTest.testTwoSum" />
       </list>
@@ -113,7 +125,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682528424133</updated>
-      <workItem from="1682528425804" duration="3067000" />
+      <workItem from="1682528425804" duration="4263000" />
+      <workItem from="1682532955284" duration="1568000" />
+      <workItem from="1682537143360" duration="3705000" />
+      <workItem from="1682543326153" duration="19000" />
+      <workItem from="1682592452344" duration="2260000" />
     </task>
     <task id="LOCAL-00001" summary="init commit">
       <created>1682528506112</created>
@@ -150,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682530757560</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add main method">
+      <created>1682531637570</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682531637570</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +185,7 @@
     <MESSAGE value="Add twoSum method" />
     <MESSAGE value="Add tests for twoSum" />
     <MESSAGE value="Some changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some changes" />
+    <MESSAGE value="Add main method" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add main method" />
   </component>
 </project>
